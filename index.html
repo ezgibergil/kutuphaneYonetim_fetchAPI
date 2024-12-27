@@ -1,0 +1,28 @@
+
+<!--bir online kütüphane sistemi geliştiriyorsunuz. 
+kullanıcılar kitap arayabilir veya silebilir. tüm işlemler fetch api kullanılarak yapılır.
+kendi apinizi veya mock apiyi kullanabilirsiniz-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Kütüphane Yönetim Sistemi</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .book-item { padding: 10px; border: 1px solid #ccc; margin-bottom: 10px; }
+        .book-item button { background-color: red; color: white; border: none; cursor: pointer; }
+        .book-item button:hover { background-color: darkred; }
+        .error-message { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Online Kütüphane Yönetim Sistemi</h1>
+    <h2>Kitap Ekle</h2>
+    <input type="text" id="bookTitle" placeholder="Kitap Başlığı">
+    <button id="addBook">Ekle</button>
+    <h2>Kitap Listesi</h2>
+    <div id="bookList"></div>
+    <script src="mock.js"></script>
+</body>
+</html>
